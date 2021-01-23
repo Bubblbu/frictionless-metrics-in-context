@@ -34,6 +34,10 @@ You can find the slides for the presentation here: [materials/FOSDEM 2021/presen
 
 [https://frictionlessdata.io/blog/2020/09/17/tool-fund-metrics/](https://frictionlessdata.io/blog/2020/09/17/tool-fund-metrics/)
 
+### Previous related research on altmetrics
+
+In [this paper](https://www.mitpressjournals.org/doi/full/10.1162/qss_a_00044) we proposed an alternative method to collect the number of times a scholarly article was shared on Facebook. While this paper focusses on the technical challenges and implications of this new method, the underlying concerns have already been the same ones that are addressed by this project.
+
 ## Acknowledgements
 
 This project has been funded by the Frictionless Data Tool Fund.
