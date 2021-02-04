@@ -2,9 +2,19 @@
 
 > What is the value of a measurement if we don't know anything about the tool used to take the measurement?
 
-Metrics in Context is an exploration of scholarly metrics and their becoming. How do the h-index, citation counts on Google Scholar, or number of shares and tweets come about as the entities that we use to assess articles, researchers, institutions, and even countries?  
+Metrics in Context is an exploration of scholarly metrics and their becoming. How do the h-index, citation counts on Google Scholar, or number of shares and tweets come about as the entities that we use to assess articles, researchers, institutions, and even countries?
 
 ## Introduction
+
+Citations are an essential part of the academic ecosystem. To be more specific, research evaluation, hiring and tenure decisions, university rankings, research discovery, and other research infrastructure build on citation data from various indexing services. While the number of these services used to be quite contained and overseeable (Web of Science and later Scopus and Google Scholar) this space is slowly turning into a hodgepodge of all kinds of new services and iniatives.
+
+With this quickly growing and expanding landscape of data providers, the question arises if the provided datasets and citation counts are commensurable. Iniatives for the responsible use and creation of metrics such as the [San Francisco Declaration on Research Assessment](https://sfdora.org/) (DORA) or the [Leiden Manifesto](http://www.leidenmanifesto.org/) both emphasise the importance of transparancy and openness when it comes to the processes and practices of data creation.
+
+![responsible_research](materials/assets/rrm.png)
+
+In this project, I propose to develop a process-centric systematic approach to describe and compare these data collection and analytic processes that lead to each metrics.
+
+## Outline
 
 This project entails three major components which I am tackling quite independently as the first one addresses conceptual questions around the processes and procedures that lead to what we consider metrics. The second part concerns the implementation of that framework in Frictionless in the form of a dedicated [data package](https://specs.frictionlessdata.io/data-package/). Finally, we will give it a test run with some real data coming from work conducted at the [ScholCommLab](https://scholcommlab.ca).
 
