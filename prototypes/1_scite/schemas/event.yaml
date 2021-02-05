@@ -1,0 +1,6 @@
+type: citational
+description: A textual reference from one scholarly document to another scholarly document.
+source_event:
+  activity: scholarly writing
+target_event:
+  activity: scholarly writing
