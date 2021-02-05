@@ -1,0 +1,6 @@
+event: schemas/event.yaml
+contexts: schemas/contexts.yaml
+tracing:
+  pipeline:
+    - citation_extraction: text-processing/ML
+    - citation_reference_matching: text-processing/ML
