@@ -1,0 +1,14 @@
+contexts:
+    - type: peer-reviewed articles
+      coverage:
+        - publishers sharing fulltexts with Scite
+        - Pubmed Open Access Subset
+        - OA articles accessed through Unpaywall
+      identified_by:
+        - DOI
+    - type: preprints
+      coverage:
+        - bioRxiv
+        - medRxiv
+      identified_by:
+        - DOI
