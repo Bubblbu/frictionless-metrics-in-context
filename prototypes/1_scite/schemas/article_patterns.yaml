@@ -1,0 +1,11 @@
+fields:
+  - mentions_agg:
+      - name: mentions_agg
+      - description: the total number of mentions aggregated by target articles
+      - resource:
+        - citation_patterns
+  - refs_agg:
+      - name: refs_agg
+      - description: the classic citation count. the number of unique citing articles for each cited article
+      - resource:
+        - citation_patterns

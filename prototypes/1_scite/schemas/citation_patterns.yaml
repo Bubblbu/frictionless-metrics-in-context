@@ -1,0 +1,11 @@
+fields:
+  - mentions:
+      name: mentions
+      description: the number of times that the target was mentioned by the source
+      resources:
+        - scite_traces
+  - norm_mentions:
+      name: norm_mentions
+      description: number of mentions normalized by total outgoing mentions of the source
+      resources:
+        - scite_traces
