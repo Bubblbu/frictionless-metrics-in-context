@@ -32,7 +32,7 @@ https://github.com/Bubblbu/metrics-in-context/blob/master/prototypes/1_scite/pro
 
 ### FOSDEM 2021 Lightning Talk
 
-You can find the slides for the presentation here: [materials/FOSDEM 2021/presentation_slides.pdf](materials/FOSDEM 2021/presentation_slides.pdf)
+You can find the slides for the presentation here: [materials/FOSDEM 2021/presentation_slides.pdf]([materials/FOSDEM 2021/presentation_slides.pdf](https://github.com/Bubblbu/metrics-in-context/blob/master/materials/FOSDEM%202021/presentation_slides.pdf))
 
 ## Other Resources
 
