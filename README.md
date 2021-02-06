@@ -24,19 +24,17 @@ This project entails three major components which I am tackling quite independen
 
 You can find a (messy) roadmap [here](https://github.com/Bubblbu/metrics-in-context/issues/2) where I am trying to keep a timeline, milestones, and goals in sight using Github Issues. I will try to document insights and progress in this pinned issue and keep corresponding issues for sub-tasks updated.
 
-## The Processes of Metrics (aka my PhD stuff)
+## Prototype 1 | Frictionless Provenance
 
-The first part of this project has major overlaps with my doctoral research which is why I am shamelessly plugging it here and providing some more details.
+You can find the first prototype explained and discussed in this notebook:
 
-In my PhD, I am questioning the taken-for-granted nature of citation data and other scholarly metrics. It is difficult to capture the full impact of citations and metrics derived from citational data as they basically shape every aspect and area of scholarship from hiring and promotion guidelines, over assessment of research(ers), to funding decisions.
-
-*More stuff to be added here*
-
-## Other Resources
+https://github.com/Bubblbu/metrics-in-context/blob/master/prototypes/1_scite/prototype_1_scite.ipynb
 
 ### FOSDEM 2021 Lightning Talk
 
 You can find the slides for the presentation here: [materials/FOSDEM 2021/presentation_slides.pdf](materials/FOSDEM 2021/presentation_slides.pdf)
+
+## Other Resources
 
 ### Frictionless Blog Posts
 
