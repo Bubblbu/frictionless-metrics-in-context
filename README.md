@@ -1,22 +1,36 @@
 # Metrics in Context
 
-Delivering scholarly metrics packaged with provenence information. 
+Metrics in Context is a Frictionless Tool Fund project that explores the question of packaging and delivering scholarly metrics with their provenance information within one data structure.
 
-![](materials/hackathon/citations_in_context.png)
+*Scholarly metrics* are considered to be citation counts, indicators derived from citations, access and download counts, or social media shares for scholarly articles. *Provenance* refers to metadata for a record that details its origin and how it came about in its final form.
 
-## Why Metrics in Context?
+In this project, the focus was on the citation as a metric and exploring ways to combine it with its provenance information including.
 
-Citations are an essential part of the academic ecosystem. To be more specific, research evaluation, hiring and tenure decisions, university rankings, research discovery, and other research infrastructure build on citation data from various indexing services. While the number of these services used to be quite contained and overseeable (Web of Science and later Scopus and Google Scholar) this space is slowly turning into a hodgepodge of all kinds of new services and iniatives.
+<img src="materials/hackathon/citations_in_context.png" width="500">
 
-![](materials/hackathon/why_citations_in_context.png)
+## Why citations in context?
+
+<img src="materials/hackathon/why_citations_in_context.png" width="500">
+
+### The uses of citation data
+
+
+
+### The sources of citation data
+
+
+
+<img src="materials/hackathon/sources.png" width="500">
+
+## Development
 
 You can find a (messy) roadmap [here](https://github.com/Bubblbu/metrics-in-context/issues/2) where I am trying to keep a timeline, milestones, and goals in sight using Github Issues. I will try to document insights and progress in this pinned issue and keep corresponding issues for sub-tasks updated.
 
-## Proof of Concept
+### Proof of Concept
 
 A proof of concept is presented in this [notebook](https://github.com/Bubblbu/metrics-in-context/blob/master/prototypes/1_scite/prototype_1_scite.ipynb)
 
-## Prototype | Citation Data Package
+### Prototype | Citation Data Package
 
 tbd
 
@@ -45,4 +59,4 @@ In [this paper](https://www.mitpressjournals.org/doi/full/10.1162/qss_a_00044) w
 
 This project has been funded by the Frictionless Data Tool Fund.
 
-I also want to specifically thank Lilly Winfreed for being patient with me during a global pandemic and providing guidance and input on my usually messy thoughts and ideas.
+I also want to thank Lilly Winfreed for being patient with me during a global pandemic and providing guidance and input on my usually messy thoughts and ideas.
