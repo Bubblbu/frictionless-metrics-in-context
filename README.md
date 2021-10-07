@@ -10,11 +10,11 @@ In other words, this project is about citation counts in a way that describes ho
 
 Read more about the hackathon challenge on the [project page](https://frictionless-hackathon.herokuapp.com/project/11) or simply head over to the issues for the goals:
 
-1. Create a prototype for citation context reports ([issue #28](https://github.com/Bubblbu/metrics-in-context/issues/28)])
+1. Create a prototype for citation context reports ([issue #28](https://github.com/Bubblbu/metrics-in-context/issues/28))
 
-2. Develop use cases for Citation Context Reports ([issue #29](https://github.com/Bubblbu/metrics-in-context/issues/29)])
+2. Develop use cases for Citation Context Reports ([issue #29](https://github.com/Bubblbu/metrics-in-context/issues/29))
 
-3. Explorative data analysis and visualisations to implement use cases ([issue #30](https://github.com/Bubblbu/metrics-in-context/issues/30)]
+3. Explorative data analysis and visualisations to implement use cases ([issue #30](https://github.com/Bubblbu/metrics-in-context/issues/30))
 
 ## Introduction
 
