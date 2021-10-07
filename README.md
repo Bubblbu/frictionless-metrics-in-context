@@ -8,19 +8,35 @@ In this project, the focus was on the citation as a metric and exploring ways to
 
 <img src="materials/hackathon/citations_in_context.png" width="500">
 
-## Why citations in context?
+## Introduction
 
-<img src="materials/hackathon/why_citations_in_context.png" width="500">
+### Why citations in context?
 
-### The uses of citation data
+The two main reasons why we should be considering citations in context with their provenance are have both been studied and explored by academic communities in detail.
 
+**1. The uses of citation data**
 
+Citations as data fuel many parts of the moderny scholarly infrastructure. We are not only talking about search engines that use citations to provide insights into citation networks, sophisticated discovery tools that go beyond the basic citation graph, but also researcher and institutional profiles. Quite importantly, large parts of research assessment including hiring and promotion guidelines.
 
-### The sources of citation data
+Citations as data impact and shape the very lives of researchers in an increasingly complex and opaque ways.
 
+**2. The sources of citation data**
 
+At the same time, the number of organizations and projects that provide their own citation data sets is increasing due to technological and legal changes in the scholarly publishing landscape. The following image is just a brief overview of various scholarly metrics that have come and gone in the last years.
 
 <img src="materials/hackathon/sources.png" width="500">
+
+While efforts to make these processes of creation more transparent have led to important community-owned infrastructures and more open citation data, not too much progress has been made in the ways we attempt to describe these open and closed sources of citation data.
+
+### A Frictionless Citation Data Package
+
+This is where Metrics in Context comes into play. I propose to explore how we can combine citation data and their provenance information in productive ways to start untangling the quandary that exists between the ways we *use* and *create* citation data.
+
+A Frictionless Citation Data Package entails:
+
+1. *The citation data*. Typically citation counts for articles, authors, or institutions. Other examples are in-text citation statements, or metrics like h-index or journal impact factor.
+2. *A metadata schema*. The metadata schema describes the present dataset and provides information for each field/column in it. Information should contain a basic description of the type of metric and who created the original data.
+3. *Citation index profiles*. Citation index profiles are JSON files that provide standardized descriptions of citation indexes (and other creators of scholarly metrics). 
 
 ## Development
 
@@ -32,7 +48,7 @@ A proof of concept is presented in this [notebook](https://github.com/Bubblbu/me
 
 ### Prototype | Citation Data Package
 
-tbd
+In development.
 
 ## Other Resources
 
