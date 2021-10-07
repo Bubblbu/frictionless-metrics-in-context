@@ -4,7 +4,17 @@ Metrics in Context is a Frictionless Tool Fund project that explores the questio
 
 *Scholarly metrics* are citation counts, indicators derived from citations, access and download counts, or social media shares for scholarly articles. *Provenance* refers to metadata for a record that details its origin and how it came about in its final form. 
 
-In other words, this project is about citation counts in a way that describes how a citation in an article was extracted, turned into data, and aggregated into a citation count. 
+In other words, this project is about citation counts in a way that describes how a citation in an article was extracted, turned into data, and aggregated into a citation count.
+
+## 🎃 Hackathon takeover (Oct 7/8) 🎃
+
+Read more about the hackathon challenge on the [project page](https://frictionless-hackathon.herokuapp.com/project/11) or simply head over to the issues for the goals:
+
+1. Create a prototype for citation context reports ([issue #28](https://github.com/Bubblbu/metrics-in-context/issues/28)])
+
+2. Develop use cases for Citation Context Reports ([issue #29](https://github.com/Bubblbu/metrics-in-context/issues/29)])
+
+3. Explorative data analysis and visualisations to implement use cases ([issue #30](https://github.com/Bubblbu/metrics-in-context/issues/30)]
 
 ## Introduction
 
@@ -67,11 +77,7 @@ In development.
 ### FOSDEM 2021 Lightning Talk
 
 You can find the slides for the presentation here: [materials/FOSDEM 2021/presentation_slides.pdf](https://github.com/Bubblbu/metrics-in-context/blob/master/materials/FOSDEM%202021/presentation_slides.pdf)
-
-
-### Frictionless Hackathon
-
-
+  
 
 ### Related research
 
