@@ -2,13 +2,19 @@
 
 Metrics in Context is a Frictionless Tool Fund project that explores the question of packaging and delivering scholarly metrics with their provenance information within one data structure.
 
-*Scholarly metrics* are considered to be citation counts, indicators derived from citations, access and download counts, or social media shares for scholarly articles. *Provenance* refers to metadata for a record that details its origin and how it came about in its final form.
+*Scholarly metrics* are citation counts, indicators derived from citations, access and download counts, or social media shares for scholarly articles. *Provenance* refers to metadata for a record that details its origin and how it came about in its final form. 
 
-In this project, the focus was on the citation as a metric and exploring ways to combine it with its provenance information including.
-
-<img src="materials/hackathon/citations_in_context.png" width="500">
+In other words, this project is about citation counts in a way that describes how a citation in an article was extracted, turned into data, and aggregated into a citation count. 
 
 ## Introduction
+
+### What are citations in context?
+
+What is so special about the context of citations? To be clear, I am not talking about the textual context of citations which might be interested in questions like "was the article cited in the methods section?" or "was it mentioned in a positive or negative manner?".
+
+In this project, I am hoping to explore context of the citation as an entry in a database. How did the citation get from an article into that database? What types of content are tracked in that database? How are those data records then processed into the citation counts and metrics that we use?
+
+<img src="materials/hackathon/citations_in_context.png" width="500">
 
 ### Why citations in context?
 
