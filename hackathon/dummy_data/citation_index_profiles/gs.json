@@ -1,0 +1,144 @@
+{
+    "name": "Google Scholar",
+    "desc": "",
+    "id": "gs",
+    "link": "",
+    "traces": {
+        "gs-refs": {
+            "name": "Google Scholar References",
+            "desc": "",
+            "type": "references",
+            "fields": {
+                "source": {
+                    "desc": "The citing article", 
+                    "type": "identifier",
+                    "object": "article"
+                },
+                "target": {
+                    "desc": "The cited article",
+                    "type": "identifier",
+                    "object": "article"
+                }
+            },
+            "proc": {
+                "desc": "GS uses spiders to parse pages which they index and attempts to identify academic articles. they then continue to extract references information from bibliographies and reference lists.",
+                "content": {
+                    "type": "webpage",
+                    "desc": "",
+                    "coverage": {
+                        "provider": "google"
+                    }
+                },
+                "extra": {
+                    "supported_tooling": {
+                        "university_repositories": [
+                            "Eprints",
+                            "Digital Commons",
+                            "DSpace"
+                        ],
+                        "journal_publishers": [
+                            "Atypon",
+                            "Highwire",
+                            "Ingenta",
+                            "Silverchair",
+                            "JSTOR",
+                            "SciELO",
+                            "Open Journal Systems"
+                        ]
+                    }
+                },
+                "source": "https://scholar.google.com/scholar/inclusion.html#overview",
+                "last_time_checked": "2021-10-08 01:30:05",
+                "status": "speculative"
+            }
+        }
+    },
+    "metrics": {
+        "gs-refs-agg-target.id": {
+            "name": "References aggregated by articles",
+            "desc": "Google Scholar's citation count for an article",
+            "proc": {
+                "type": "aggregation",
+                "input": "gs-refs",
+                "by": "target.id"
+            }
+        },
+        "gs-refs-agg-author.id": {
+            "name": "References aggregated by authors",
+            "desc": "Google Scholar's citation count for an author",
+            "level": "article",
+            "process": {
+                "type": "aggregation",
+                "input": "gs-refs",
+                "by": "target.author.id"
+            }
+        },
+        "gs-refs-filt-source.year": {
+            "name": "References filtered by year",
+            "desc": "All references for a single year",
+            "proc": {
+                "type": "filter",
+                "input": "gs-refs",
+                "by": "source.year"
+            }
+        },
+        "gs-filt-source.id": {
+            "name": "References aggregated by articles",
+            "desc": "Google Scholar's citation count for an article",
+            "proc": {
+                "type": "aggregation",
+                "input": "gs-refs",
+                "by": "target.id"
+            }
+        },
+        "gs-refs-filt-target.author.id": {
+            "name": "References filtered by author",
+            "desc": "All references for a single author",
+            "proc": { 
+                "type": "filter",
+                "input": "gs-refs",
+                "by": "target.author.id"
+            }
+        },
+        "gs-refs-filt-author_year": {
+            "name": "References for specific year & author",
+            "desc": "References for a single author & year",
+            "proc": {
+                "type": "filter",
+                "input": "gs-refs-filt-target.author.id",
+                "by": "source.year"
+            }
+        },
+        "gs-filt-year-agg-author": {
+            "name": "References aggregated by authors for a single year",
+            "desc": "Google Scholar's h-index",
+            "proc": {
+                "type": "aggregation",
+                "input": "gs-refs-filt-year",
+                "by": "target.author.id"
+            }
+        },
+        "gs-custom-hindex": {
+            "name": "h-index",
+            "desc": "Google Scholar's h-index",
+            "proc": {
+                "type": "custom",
+                "name": "h-index",
+                "desc": "You can provide a description of the algorithm here.",
+                "input": "gs-refs-filt-author",
+                "output_type": "integer"
+            }
+        },
+        "gs-hindex10": {
+            "name": "i10-index",
+            "desc": "",
+            "proc": {
+                "type": "custom",
+                "name": "i10-index",
+                "desc": "You can provide a description of the algorithm here.",
+                "input": "gs-refs-filt-author",
+                "output_type": "integer"
+            }
+        }
+    }
+}
